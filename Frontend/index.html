@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apna Beta Chintu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 h-[100vh]">
+    <div class="px-5 md:px-10 lg:px-20 flex justify-center items-center py-5 flex-col">
+        <nav class="flex flex-col justify-center items-center">
+            <img class="lg:h-[70px] h-[50px]" src="./assets/logo.png" alt="Logo">
+            <div class="font-bold text-2xl my-3 text-white">Apna Beta Chintu</div>
+        </nav>
+        <section class="chatbox flex flex-col  mt-3 h-[75vh] w-[100%]">
+            <div class="view text-2xl py-3 px-10 h-[60vh] border border-white lg:mx-10 mx-5 rounded-xl text-white flex justify-end items-end flex-col  ">
+                <div class="right flex justify-start w-full my-2">
+                    <div class="user mr-2">Sourav:</div>
+                    <div class="message">I'm fine.</div>
+                </div>
+                <div class="left flex justify-end w-full my-2">
+                    <div class="user mr-2">Me:</div>
+                    <div class="message">How are you?</div>
+                </div>
+            </div>
+            <div class="sendbox flex h-[15vh] w-full lg:px-10 px-5 py-5">
+                <input placeholder="Type here to chat..." type="text" class="h-full rounded-xl flex-1 bg-slate-900 border-2 border-white text-xl lg:px-10 px-5 text-white">
+                <button class="flex justify-center items-center pl-5 object-cover "><img src="./assets/send.png" width="50px" alt="Send"></button>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
